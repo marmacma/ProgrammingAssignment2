@@ -2,6 +2,8 @@
 ## functions do
 ## Write a short comment describing this function
 ## This function creates a special "matrix" object that can cache its inverse.
+## When you change the matrix (function set), the invers of this matrix has to be recalculated (The invers object becomes null)
+
 
 makeCacheMatrix <- function(x = matrix()) {
         xinv<-NULL
